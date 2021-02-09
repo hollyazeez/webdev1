@@ -1,0 +1,19 @@
+body {
+    background: lightgreen;
+}
+
+h1 {
+    color: lightpink;
+    background: black;
+    text-align: center;
+}
+
+div {
+    font-size: 60px;
+    background: orange;
+    padding: 30px;
+    border: 10px solid blue;
+    margin: 60px
+    margin-left: 260px;
+    margin-left: 260px;
+}
