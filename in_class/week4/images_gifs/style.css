@@ -1,0 +1,13 @@
+body {
+    background-image: url(gifs/dance)
+}
+
+
+img {
+    width: 10%;
+}
+
+.acro {
+    position: absolute;
+    left: 300px;
+}

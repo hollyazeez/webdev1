@@ -1,0 +1,50 @@
+h1 {
+    color:blue;
+}
+
+.px {
+    font-size: 24px;
+    /* avoid px except for specific situations */
+}
+
+.container {
+    font-size: 30px;
+}
+
+.em {
+    background-color: lightblue;
+    font-size: 1.25em;
+    /* 1 em is parent size, default if none set, relative to parent */
+    /* good for margins and padding */
+}
+
+.rem {
+    background-color: pink;
+    font-size: 1rem;
+    /* 1 rem is default size of document, relative to root */
+    /* good for fonts */
+}
+
+.percent-container {
+    background-color: lightgray;
+}
+
+.percent {
+    background-color: lightgreen;
+    width: 50%;
+    height: 20%
+    /* percent of parent */
+}
+
+.vw {
+    background-color: lightsalmon;
+    width: 50vw;
+    /* viewpoint window, would be 50% of screen */
+}
+
+.vh {
+    background-color: lightcyan;
+    height: 4vw;
+    border: 2px solid orange;
+    /* viewpoint hight */
+}

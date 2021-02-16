@@ -1,0 +1,29 @@
+h1 {
+    color:darkgreen;
+}
+
+.box {
+    background: purple;
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+}
+
+.absolute {
+    background: blue;
+    position: absolute;
+    /* removed from document flow, can be placed anywhere */
+    top: 2000px;
+    left: 1000px;
+    /* only ever use two dimentions */
+}
+
+.fixed {
+    background: limegreen;
+    position: fixed;
+    /* remains in same place no matter where scroll to */
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%);
+    /* transform to position box to center not top */
+}
