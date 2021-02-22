@@ -1,0 +1,71 @@
+body{
+    background-image: url(gifs/music_notes.gif);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    
+}
+
+p {
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.left {
+    width: 25%;
+    position: absolute;
+    left: 2em;
+    top: 1em;
+}
+
+.right {
+    width: 25%;
+    position: absolute;
+    right: 2em;
+    top: 1em;
+}
+
+.pics {
+    width: 50%;
+    padding: 1em;
+}
+
+.lady {
+    position: fixed;
+    left: 5%;
+    top: 25%;
+}
+
+.raver {
+    position: fixed;
+    right: 5%;
+    top: 25%;
+}
+
+.group {
+    position: fixed;
+    left: 2%;
+    top: 50%;
+}
+
+.dudes {
+    position: fixed;
+    right: 0%;
+    top: 50%;
+}
+
+.disney {
+    position: fixed;
+    left: 5%;
+    top: 75%;
+}
+
+.russian {
+    position: fixed;
+    right: 5%;
+    top: 75%;
+}
