@@ -1,0 +1,21 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+section {
+    background:crimson;
+    margin-bottom: 6em;
+}
+
+section h2 {
+    background: cornflowerblue;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+}
+
+section p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 2rem;
+    color: white;
+}

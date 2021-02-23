@@ -1,0 +1,22 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.dialogue-box {
+    width: 50vmin;
+    height: 20vmin;
+    border: 3px solid black;
+    background: lightblue;
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%)
+}
+
+.close-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: red;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+}

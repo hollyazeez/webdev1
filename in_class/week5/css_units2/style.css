@@ -1,0 +1,38 @@
+/* Universal Selector, selects everything in document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    /* This affects rem */
+}
+
+section {
+    margin: 2rem .5em;
+    padding: 1em;
+    border: 2px solid gray;
+}
+
+.vmin-demo {
+    background: lightskyblue;
+    font-size: 10vmin;
+}
+/* Based off of smaller value (height or width) */
+
+.section-vmin img {
+    width: 30vmin;
+}
+/* Apply to any image within section-vmin class */
+
+.box-em {
+    font-size: 50px;
+    width: max-content;
+    padding: 1em;
+    background: gray;
+    margin: 1rem;
+    color: white;
+}
+/* Em is relative to font size of element. Rem is relative to font size of document */

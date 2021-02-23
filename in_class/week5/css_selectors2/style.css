@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+}
+
+div {
+    background: red;
+}
+/* Classes override elements */
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    margin: 1em;
+}
+/* Good to have a base class for everything. Add new class for alterations */
+
+.big {
+    width: 200px;
+    height: 200px;
+}
+
+.coral {
+    background: coral;
+}
+/* Order in which refer to classes in html does not matter. Order of CSS matters, overrides as moves down sheet */
+
+#unique-box {
+    background: darkslategray;
+    color: white;
+    border: 10px dotted violet;
+}
+/* Classes meant to be reused. IDs are unique and HIGHER PRIORITY */

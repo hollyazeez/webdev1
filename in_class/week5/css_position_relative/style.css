@@ -1,0 +1,70 @@
+* {margin: o; padding: 0; box-sizing: border-box;}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    background: #ddd;
+    margin: 5em;
+}
+
+.box {
+    background: cornflowerblue;
+    width: 50vmin;
+    height: 50vmin;
+    margin: 1em;
+    border: 3px solid orange;
+}
+
+.absolute {
+    background: purple;
+    position: absolute;
+    top: 50vmin;
+    right: 50vmin;
+}
+/* Order based on html */
+
+.fixed {
+    background: coral;
+    position: fixed;
+    bottom: 10vmin;
+    right: 40vmin;
+}
+
+.relative {
+    background: greenyellow;
+    position: relative;
+    top: 80vmin;
+    left: 20vmin;
+}
+/* Still part of the document flow, kind of */
+
+.parent {
+    width: 60%;
+    height: 300px;
+    background: lightgreen;
+    margin: 1em auto;
+    position: relative;
+}
+
+.child {
+    background: salmon;
+    width: 30%;
+    height: 30%;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.grandchild {
+    width: 50%;
+    height: 50%;
+    background: blue;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+/* Only one parent element needs to be relative position */
+
