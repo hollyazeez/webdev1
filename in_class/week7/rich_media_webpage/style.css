@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    /* background-image: url(assets/images/capuchin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.bg-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 10vmax;
+    color: white;
+}
+
+main {
+    background: rgba(255, 0, 0, 0.25);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+main p {
+    font-size: 3rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.75);
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    box-shadow: 0px 10px 20px -8px black;
+    border: 1rem solid violet;
+}
+
+main p:hover {
+    color: crimson;
+    background: lightgreen;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gallery img {
+    width: 20vmax;
+    height: 20vmax;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Only works if squares */
+    border: 1rem solid white;
+}
