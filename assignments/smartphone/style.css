@@ -14,10 +14,11 @@
 }
 
 .phone {
-    background: lightpink;
+    background-image: url("images/wallpaper.JPG");
+    background-size: cover;
     height: 65vmin;
     width: 40vmin;
-    border: 0.25vmin solid black;
+    border: 0.5vmin solid black;
     border-radius: 2vmin;
     display: flex;
     flex-direction: column;
@@ -31,9 +32,108 @@
 }
 
 .app {
-    background: lightgreen;
+    background-size: cover;
     height: 6vmin;
     width: 6vmin;
-    border: 0.25vmin solid black;
     border-radius: 1.5vmin;
+}
+
+.app:hover {
+    opacity: 75%;
+}
+
+.call {
+    background-image: url("images/Phone.png");
+}
+
+.photos {
+    background-image: url("images/Photos.png");
+}
+
+.camera {
+    background-image: url("images/Camera.png");
+}
+
+.mail {
+    background-image: url("images/Mail.png");
+}
+
+.settings {
+    background-image: url("images/Settings.png");
+}
+
+.notes {
+    background-image: url("images/Notes.png");
+}
+
+.calc {
+    background-image: url("images/Calculator.png");
+}
+
+.contact {
+    background-image: url("images/contacts.jpg");
+}
+
+.calendar {
+    background-image: url("images/Calendar.png");
+}
+
+.store {
+    background-image: url("images/app_store.jpg");
+}
+
+.map {
+    background-image: url("images/map.png");
+}
+
+.weather {
+    background-image: url("images/weather.png");
+}
+
+.canvas {
+    background-image: url("images/canvas.jpg");
+}
+
+.spotify {
+    background-image: url("images/spotify.jpg");
+}
+
+.news {
+    background-image: url("images/news.jpg");
+}
+
+.sudoku {
+    background-image: url("images/sudoku.png");
+}
+
+.youtube {
+    background-image: url("images/youtube.png");
+}
+
+.netflix {
+    background-image: url("images/netflix.jpg");
+}
+
+.hp {
+    background-image: url("images/hphm.png");
+}
+
+.color {
+    background-image: url("images/coloring.png");
+}
+
+.messages {
+    background-image: url("images/messages.png");
+}
+
+.google {
+    background-image: url("images/google.jpg");
+}
+
+.music {
+    background-image: url("images/Music.png");
+}
+
+.record {
+    background-image: url("images/recorder.png");
 }
