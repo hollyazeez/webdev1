@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.home {
+    background: lightblue;
+    font-size: 5vmin;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
 .outer {
     background: lightblue;
     height: 100vh;
