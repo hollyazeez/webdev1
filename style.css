@@ -1,0 +1,64 @@
+body {
+    background: thistle;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Redressed', cursive;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.thumbnail {
+    height: 15vmax;
+    width: 15vmax;
+    background-size: cover;
+    outline: 2px solid black;
+    position: relative;
+}
+
+.thumbnail:hover {
+    background: grey;
+}
+
+.thumbnail:hover a {
+    opacity: 100%;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    color: black;
+    opacity: 0%;
+}
+
+.company {
+    background-image: url(assets/company.png);
+}
+
+.basic {
+    background-image: url(assets/basics.png);
+}
+
+.geo {
+    background-image: url(assets/geocities.png);
+}
+
+.square {
+    background-image: url(assets/squares.png);
+}
+
+.phone {
+    background-image: url(assets/smartphone.png);
+}
+
+footer {
+    font-family: 'Redressed', cursive;
+}
