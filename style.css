@@ -14,8 +14,8 @@ h1 {
 }
 
 .thumbnail {
-    height: 15vmax;
-    width: 15vmax;
+    height: 20vmax;
+    width: 20vmax;
     background-size: cover;
     outline: 2px solid black;
     position: relative;
@@ -34,13 +34,9 @@ h1 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3vw;
+    font-size: 4vw;
     color: black;
     opacity: 0%;
-}
-
-.company {
-    background-image: url(assets/company.png);
 }
 
 .basic {
