@@ -8,6 +8,12 @@ a {
     color: black;
 }
 
+h1 {
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+
 .box {
     background: black;
     height: 10vmin;
@@ -25,7 +31,7 @@ a {
 }
 
 @keyframes slide {
-    0 {
+    0% {
         transform: translate(-50%, -50%) scale(1, 1);
     }
     25% {
@@ -50,7 +56,7 @@ a {
 }
 
 @keyframes delay {
-    0 {transform: translate(50%, 50%) scale(1, 1);
+    0% {transform: translate(50%, 50%) scale(1, 1);
     }
     25% {
         transform: translate(-50%, 50%) scale(-1, 1);
