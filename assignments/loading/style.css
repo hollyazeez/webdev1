@@ -1,0 +1,16 @@
+body {
+    background: seashell;
+    font-family: monospace;
+    text-align: center;
+    font-size: 2em;
+}
+a  {
+    display: block;
+    padding: .5em;
+    color: black;
+}
+
+.home {
+    text-align: left;
+    font-size: .75em;
+}

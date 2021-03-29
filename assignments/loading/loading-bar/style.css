@@ -1,0 +1,70 @@
+body {
+    background: seashell;
+    font-family: monospace;
+}
+
+a {
+    font-size: 2em;
+    color: black;
+}
+
+h1 {
+    font-size: 5em;
+    margin: .5em;
+    text-align: center;
+}
+
+.box {
+    border: .2em solid black;
+    background: white;
+    height: 10%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar {
+    background: lightgreen;
+    height: 100%;
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    animation-name: loading;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+    30% {
+        width: 30%;
+    }
+    50% {
+        width: 35%;
+    }
+    65% {
+        width: 70%;
+    }
+    75% {
+        width: 80%;
+    }
+    85% {
+        width: 98%;
+    }
+    99% {
+        background: lightgreen;
+        color: rgba(0, 0, 0, 0);
+    }
+    100% {
+        width: 99%;
+        background: red;
+        color: rgba(0, 0, 0, 100);
+    }
+}

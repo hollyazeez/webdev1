@@ -10,12 +10,14 @@ h1 {
 
 .gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .thumbnail {
     height: 20vmax;
     width: 20vmax;
+    margin: 2vmax 0;
     background-size: cover;
     outline: 2px solid black;
     position: relative;
@@ -53,6 +55,10 @@ h1 {
 
 .phone {
     background-image: url(assets/smartphone.png);
+}
+
+.load {
+    background-image: url(assets/loading.png);
 }
 
 footer {
