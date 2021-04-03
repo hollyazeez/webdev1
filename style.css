@@ -20,18 +20,22 @@ h1 {
     margin: 2vmax 0;
     background-size: cover;
     outline: 2px solid black;
+    box-shadow: 1vmax 1vmax .75vmax rgba(0,0,0,.5);
     position: relative;
 }
 
-.thumbnail:hover {
+.overlay {
     background: grey;
+    height: 20vmax;
+    width: 0vmax;
+    transition: .5s;
 }
 
-.thumbnail:hover a {
-    opacity: 100%;
+.overlay:hover {
+    width: 20vmax;
 }
 
-.text {
+.overlay a {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -39,6 +43,11 @@ h1 {
     font-size: 4vw;
     color: black;
     opacity: 0%;
+    transition: .75s;
+}
+
+.overlay:hover a {
+    opacity: 100%;
 }
 
 .company {
