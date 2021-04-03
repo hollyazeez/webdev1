@@ -2,6 +2,7 @@ body {
     background: thistle;
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
+    text-align: center;
 }
 
 h1 {
@@ -33,6 +34,7 @@ h1 {
 
 .overlay:hover {
     width: 20vmax;
+    box-shadow: 1vmax 1vmax .75vmax rgba(0,0,0,.25);
 }
 
 .overlay a {
@@ -43,7 +45,7 @@ h1 {
     font-size: 4vw;
     color: black;
     opacity: 0%;
-    transition: .75s;
+    transition: .5s;
 }
 
 .overlay:hover a {
