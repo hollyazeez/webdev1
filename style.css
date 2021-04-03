@@ -1,12 +1,18 @@
 body {
     background: thistle;
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
 }
 
 h1 {
     font-family: 'Redressed', cursive;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 2em;
+    margin-top: 0;
 }
 
 .gallery {
