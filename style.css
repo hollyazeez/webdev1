@@ -82,6 +82,10 @@ p {
     background-image: url(assets/loading.png);
 }
 
+.grid {
+    background-image: url(assets/grid.png);
+}
+
 footer {
     font-family: 'Redressed', cursive;
     font-size: 1.75em;
