@@ -1,0 +1,43 @@
+h1 {
+    color: blue;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    color: lightblue;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial;
+    margin: 1rem;
+  }
+  
+  .box:hover {
+    cursor: pointer;
+  }
+  
+  .spin-animation {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  
+  
