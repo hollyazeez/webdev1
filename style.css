@@ -38,7 +38,7 @@ p {
     transition: .5s;
 }
 
-.overlay:hover {
+.thumbnail:hover .overlay {
     width: 20vmax;
     box-shadow: 1vmax 1vmax .75vmax rgba(0,0,0,.25);
 }
