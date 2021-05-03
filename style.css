@@ -86,6 +86,10 @@ p {
     background-image: url(assets/grid.png);
 }
 
+.card {
+    background-image: url(assets/cards_test.png);
+}
+
 footer {
     font-family: 'Redressed', cursive;
     font-size: 1.75em;
