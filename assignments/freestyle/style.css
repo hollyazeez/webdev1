@@ -1,3 +1,33 @@
 body {
-    background: lightgreen;
+    background-image: url(images/cards.jpg);
+}
+
+.format {
+    width: 80%;
+    background: rgb(100, 218, 100);
+    margin: 0 auto;
+    padding: .25em 1.5em;
+    font-size: 1.5em;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+a {
+    color: black;
+}
+
+.home {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
 }
