@@ -90,6 +90,10 @@ p {
     background-image: url(assets/cards.png);
 }
 
+.final {
+    background-image: url(assets/portfolio.png);
+}
+
 footer {
     font-family: 'Redressed', cursive;
     font-size: 1.75em;
