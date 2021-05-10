@@ -4,17 +4,20 @@ body {
     background: black;
     color: white;
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    height: 6em;
+    height: 5em;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
 }
 
 .banner {
     background: silver;
     color: rgba(0, 0, 0, 0);
     margin: 0 auto;
-    padding: 1em;
+    padding: .5em;
     animation-name: banner;
 }
 
@@ -48,6 +51,7 @@ header a {
     left: 0;
     top: 0;
     animation-name: fade;
+    font-size: .75em;
 }
 
 @keyframes fade {
@@ -61,12 +65,14 @@ header a {
 
 .tag {
     margin: 1em;
+    font-size: 1.25em;
 }
 
 .reel {
     width: 80%;
     height: 50vh;
     border: solid 2px white;
+    box-shadow: 1vmax 1vmax .75vmax rgba(250,250,250,.5);
 }
 
 a {
@@ -76,11 +82,15 @@ a {
 }
 
 footer {
-    height: 3em;
+    height: 2.5em;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
 }
 
 h2 {
     margin-top: 1em;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
 }
 
 .gallery {
@@ -94,10 +104,24 @@ h2 {
     background: white;
     outline: solid 2px white;
     margin: 3vmax;
+    box-shadow: 1vmax 1vmax .75vmax rgba(250,250,250,.5);
 }
 
 .container:hover {
     transform: scale(1.25);
+    box-shadow: 1.5vmax 1.5vmax 1.25vmax rgba(250,250,250,.25);
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 40vmax;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 50vmax;
+    }
 }
 
 .video {
@@ -106,4 +130,5 @@ h2 {
 
 .text {
     color: black;
+    padding: .5em;
 }
