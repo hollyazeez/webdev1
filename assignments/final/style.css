@@ -51,7 +51,8 @@ header a {
     left: 0;
     top: 0;
     animation-name: fade;
-    font-size: .75em;
+    font-size: .5em;
+    margin: .25em;
 }
 
 @keyframes fade {
@@ -121,6 +122,18 @@ h2 {
 @media (max-width: 600px) {
     .container {
         width: 50vmax;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        height: 3.5em;
+    }
+}
+
+@media (max-width: 340px) {
+    header {
+        height: 7em;
     }
 }
 
